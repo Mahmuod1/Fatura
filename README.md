@@ -18,6 +18,8 @@ http://localhost:5000/user/api/new-subscriber
     "tire":"Monthly",
     "price":7
 }
+
+
 http://localhost:5000/admin/api/add-new-sletter
 3- update new Sletter price 
 body 
@@ -31,4 +33,9 @@ http://localhost:5000/admin/api/update-new-sletter
 
 
 
-4 - 
+4 - add content 
+body {
+    content: this is content
+}
+method POST
+http://localhost:5000/content/api/add-new-sletter-content
